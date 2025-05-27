@@ -1,0 +1,48 @@
+const dummyRides = [
+  {
+    id: '1',
+    from: 'New Delhi',
+    to: 'Gurgaon',
+    date: '2025-06-05',
+    time: '09:00',
+    seats: 3,
+    price: 150,
+    vehicle: 'Toyota Innova, KA-01-AB-1234',
+    notes: 'No smoking in the vehicle, please.',
+  },
+  {
+    id: '2',
+    from: 'Bangalore',
+    to: 'Mysore',
+    date: '2025-06-06',
+    time: '14:30',
+    seats: 2,
+    price: 200,
+    vehicle: 'Honda City, KA-05-CD-5678',
+    notes: '',
+  },
+  {
+    id: '3',
+    from: 'Mumbai',
+    to: 'Pune',
+    date: '2025-06-07',
+    time: '07:00',
+    seats: 4,
+    price: 120,
+    vehicle: 'Maruti Swift, MH-12-EF-9012',
+    notes: 'Can pick up from Andheri station.',
+  },
+  {
+    id: '4',
+    from: 'Chennai',
+    to: 'Coimbatore',
+    date: '2025-06-08',
+    time: '08:30',
+    seats: 1,
+    price: 300,
+    vehicle: 'Hyundai Verna, TN-10-GH-3456',
+    notes: 'AC available.',
+  },
+];
+
+export default dummyRides;
